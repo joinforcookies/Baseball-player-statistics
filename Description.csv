@@ -1,0 +1,51 @@
+﻿,Variable name ,Description 
+1,YEAR ,Year (1959-2004) 
+2,YRINDEX ,Year index (1959=1) 
+3,PLAYERID ,Unique player ID 
+4,NAMElast ,Last name 
+5,NAMEfirst ,First name 
+6,TEAM ,Team(s) played on that year 
+7,LG ,League(s) played in that year 
+8,LGCODE ,"League code (0=AL,1=both, 2=NL) "
+9,G ,Games 
+10,AB ,At bats (number of turns at bat)
+11,R ,Runs (player advances around all 4 bases and scores)
+12,H ,Hits (player hits a fair ball and reaches base safely without losing a runner already on base)
+13,HR ,Home runs (balls that fly out of the ballpark and allow the batter to run all the way home)
+14,RBI ,Runs batted in (number of runners who score on the basis of a player’s hits)
+15,TB ,Total bases (=H+DB+2*TR+3*HR) 
+16,OB ,On base (=H+BB+HBP) 
+17,PA ,Plate appearances (=H+BB+HBP+SF) 
+18,DBL ,Doubles (long hits that allow the batter to run all the way to second base)
+19,TR ,Triples (very long hits that allow the batter to run all the way to third base)
+20,SB ,Stolen bases (runner “steals” the next base by running to it when no one is looking)
+21,CS ,Caught stealing (runner is tagged out with the ball while attempting to steal a base)
+22,BB ,Bases on balls (player “walks” to first base if the pitcher throws 4 bad pitches) 
+23,SO ,Struck out (player is out by swinging-and-missing and/or not-swinging-at-good-pitch 3 times)
+24,IBB ,Intentional bases on balls (pitcher deliberately throws 4 bad pitches to avoid risking a hit) 
+25,HBP ,Hit by pitch (player gets to go to first base on the basis of getting hit by pitch)
+26,SH ,Sacrifices (player hits the ball and gets himself out but enables another runner to advance)
+27,SF ,Sacrifice flies (sacrifices that are balls caught in the air in the outfield)
+28,GIDP ,Grounded into double play (player hits a ball that gets himself out and also another runner)
+29,AVG ,Batting average (=H/AB) 
+30,OBP ,On base percentage (=OB/PA) 
+31,SLG ,Slugging percentage (=TB/AB) 
+32,AVGcum ,Cumulative batting average of the same player (in his career since 1959) 
+33,OBPcum ,Cumulative on-base percentage 
+34,SLGcum ,Cumulative slugging percentage 
+35,ABcum ,Cumulative total at-bats 
+36,Rcum ,Cumulative total runs 
+37,Hcum ,Cumulative total hits 
+38,HRcum ,Cumulative total home runs 
+39,RBIcum ,Cumulative total runs batted in 
+40,PAcum ,Cumulative total plate appearances 
+41,OBcum ,Cumulative total of total-on-base 
+42,TBcum ,Cumulative total of total-bases 
+43,EXP ,Experience (# years after and including the first year in which CPA>50) 
+44,PAYR ,Plate appearances per year of experience (since 1959) 
+45,MLAVG ,"Major league batting average (same year, same set of players) "
+46,MLOBP ,Major league on base percentage 
+47,MLSLG ,Major league slugging average 
+48,MLRAVG ,Major league average runs per plate appearance 
+49,MLHRAVG ,Major league average home runs per plate appearance 
+50,MLRBIAVG ,Major league average RBI's per plate appearance 
